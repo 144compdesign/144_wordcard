@@ -11,11 +11,22 @@ function StudyPage({ mode, filter, onBack }) {
   const targetWords = isReview
     ? words.filter((word) => flaggedIds.includes(word.id))
     : words.filter((word) => {
-        if (!filter || filter.category === "all") {
+        if (!filter) {
           return true;
         }
 
-        return word.category === filter.category && word.level === filter.level;
+        if (filter.categories) {
+          return filter.categories.includes(word.category);
+        }
+
+        if (filter.category === "all") {
+          return true;
+        }
+
+        return (
+          word.category === filter.category &&
+          (filter.level === "all" || word.level === filter.level)
+        );
       });
 
   const { currentWord, cardKey, currentIndex, totalCount, nextWord, previousWord } =

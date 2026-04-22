@@ -1,6 +1,7 @@
 import { useState } from "react";
 import StartScreen from "./pages/StartScreen.jsx";
 import LevelSelectPage from "./pages/LevelSelectPage.jsx";
+import PracticalSelectPage from "./pages/PracticalSelectPage.jsx";
 import StudyPage from "./pages/StudyPage.jsx";
 import DictionaryPage from "./pages/DictionaryPage.jsx";
 import WordDetailPage from "./pages/WordDetailPage.jsx";
@@ -8,11 +9,25 @@ import WordDetailPage from "./pages/WordDetailPage.jsx";
 function App() {
   const [page, setPage] = useState("start");
   const [studyFilter, setStudyFilter] = useState(null);
+  const [studyBackPage, setStudyBackPage] = useState("levelSelect");
   const [selectedWord, setSelectedWord] = useState(null);
 
-  function startStudy(filter) {
+  function startStudy(filter, backPage = "levelSelect") {
     setStudyFilter(filter);
+    setStudyBackPage(backPage);
     setPage("study");
+  }
+
+  function startPracticalStudy(category) {
+    startStudy(
+      {
+        category,
+        level: "all",
+        title: category,
+        description: "実務用語"
+      },
+      "practicalSelect"
+    );
   }
 
   function openWordDetail(word) {
@@ -25,7 +40,7 @@ function App() {
       <StudyPage
         mode="all"
         filter={studyFilter}
-        onBack={() => setPage("levelSelect")}
+        onBack={() => setPage(studyBackPage)}
       />
     );
   }
@@ -39,6 +54,15 @@ function App() {
       <LevelSelectPage
         onBack={() => setPage("start")}
         onSelectFilter={startStudy}
+      />
+    );
+  }
+
+  if (page === "practicalSelect") {
+    return (
+      <PracticalSelectPage
+        onBack={() => setPage("start")}
+        onSelectCategory={startPracticalStudy}
       />
     );
   }
@@ -64,6 +88,7 @@ function App() {
   return (
     <StartScreen
       onStartStudy={() => setPage("levelSelect")}
+      onStartPractical={() => setPage("practicalSelect")}
       onStartReview={() => setPage("review")}
       onOpenDictionary={() => setPage("dictionary")}
     />

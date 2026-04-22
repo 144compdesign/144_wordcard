@@ -11,10 +11,12 @@ const LEVEL_LABELS = {
 const CATEGORY_ORDER = {
   HTML: 1,
   CSS: 2,
-  JavaScript: 3
+  JavaScript: 3,
+  Tech: 4,
+  Business: 5
 };
 
-const CATEGORY_FILTERS = ["HTML", "CSS", "JavaScript"];
+const CATEGORY_FILTERS = ["HTML", "CSS", "JavaScript", "Tech", "Business"];
 
 const sortedWords = [...words].sort((firstWord, secondWord) => {
   const categoryDiff =
@@ -35,7 +37,9 @@ function DictionaryPage({ onBack, onSelectWord }) {
 
   const filteredWords = sortedWords.filter((word) => {
     const normalizedSearchText = searchText.trim().toLowerCase();
-    const searchableText = `${word.term} ${word.shortMeaning} ${word.meaning}`.toLowerCase();
+    const searchableText = `${word.term} ${word.shortMeaning ?? ""} ${
+      word.meaning
+    }`.toLowerCase();
     const matchesSearch =
       normalizedSearchText === "" || searchableText.includes(normalizedSearchText);
     const matchesCategory =
@@ -102,7 +106,9 @@ function DictionaryPage({ onBack, onSelectWord }) {
           >
             <span className="word-list-main">
               <span className="word-list-term">{word.term}</span>
-              <span className="word-list-meaning">{word.shortMeaning}</span>
+              <span className="word-list-meaning">
+                {word.shortMeaning ?? word.meaning}
+              </span>
             </span>
             <span className="word-list-meta">
               <span className={`category category-${word.category.toLowerCase()}`}>

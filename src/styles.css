@@ -165,7 +165,8 @@ button {
 }
 
 .level-select-button,
-.all-words-button {
+.all-words-button,
+.practical-select-button {
   display: grid;
   min-height: 64px;
   align-items: center;
@@ -209,6 +210,34 @@ button {
 
 .all-words-button small {
   color: #dbeafe;
+}
+
+.practical-select-button {
+  grid-template-columns: 40px 1fr;
+  gap: 12px;
+  padding: 16px;
+}
+
+.practical-select-button svg {
+  color: #2563eb;
+}
+
+.practical-select-main {
+  display: grid;
+  gap: 4px;
+}
+
+.practical-select-main span {
+  color: #111827;
+  font-size: 19px;
+  font-weight: 900;
+}
+
+.practical-select-main small {
+  color: #526174;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 .dictionary-tools {
@@ -494,6 +523,14 @@ button {
 
 .category-javascript {
   background: #ca8a04;
+}
+
+.category-tech {
+  background: #0891b2;
+}
+
+.category-business {
+  background: #7c3aed;
 }
 
 .level {

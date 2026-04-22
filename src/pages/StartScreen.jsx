@@ -1,6 +1,11 @@
-import { BookOpen, Flag, Library } from "lucide-react";
+import { BookOpen, BriefcaseBusiness, Flag, Library } from "lucide-react";
 
-function StartScreen({ onStartStudy, onStartReview, onOpenDictionary }) {
+function StartScreen({
+  onStartStudy,
+  onStartPractical,
+  onStartReview,
+  onOpenDictionary
+}) {
   return (
     <main className="screen start-screen">
       <section className="app-title">
@@ -13,6 +18,10 @@ function StartScreen({ onStartStudy, onStartReview, onOpenDictionary }) {
         <button className="primary-button" type="button" onClick={onStartStudy}>
           <BookOpen size={22} aria-hidden="true" />
           単語を見る
+        </button>
+        <button className="secondary-button" type="button" onClick={onStartPractical}>
+          <BriefcaseBusiness size={22} aria-hidden="true" />
+          実務用語
         </button>
         <button className="secondary-button" type="button" onClick={onStartReview}>
           <Flag size={22} aria-hidden="true" />

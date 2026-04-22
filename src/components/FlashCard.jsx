@@ -144,7 +144,7 @@ function FlashCard({
           </div>
           <div className="meaning-area">
             <h2 className="meaning-heading">意味</h2>
-            <p className="short-meaning">{word.shortMeaning}</p>
+            {word.shortMeaning && <p className="short-meaning">{word.shortMeaning}</p>}
             <p className="meaning">{word.meaning}</p>
           </div>
         </article>

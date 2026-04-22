@@ -25,10 +25,16 @@ const CATEGORY_GROUPS = [
   { name: "JavaScript", Icon: Braces }
 ];
 
+const WEB_CATEGORIES = CATEGORY_GROUPS.map((category) => category.name);
+
 function countWords(category, level) {
   return words.filter((word) => {
     return word.category === category && word.level === level;
   }).length;
+}
+
+function countWebWords() {
+  return words.filter((word) => WEB_CATEGORIES.includes(word.category)).length;
 }
 
 function LevelSelectPage({ onBack, onSelectFilter }) {
@@ -82,16 +88,16 @@ function LevelSelectPage({ onBack, onSelectFilter }) {
           type="button"
           onClick={() =>
             onSelectFilter({
-              category: "all",
+              categories: WEB_CATEGORIES,
               level: "all",
               title: "全て",
-              description: "200問すべて"
+              description: "Web単語すべて"
             })
           }
         >
           <Layers size={22} aria-hidden="true" />
           <span>全て</span>
-          <small>{words.length}問</small>
+          <small>{countWebWords()}問</small>
         </button>
       </section>
     </main>
