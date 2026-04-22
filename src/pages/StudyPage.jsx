@@ -59,15 +59,15 @@ function StudyPage({ mode, filter, onBack }) {
             key={cardKey}
             word={currentWord}
             isFlagged={flaggedIds.includes(currentWord.id)}
-            onSwipeLeft={previousWord}
-            onSwipeRight={nextWord}
+            onSwipeLeft={nextWord}
+            onSwipeRight={previousWord}
             onSwipeDown={handleFlagAndNext}
             onSwipeUp={isReview ? handleRemoveFlagAndNext : undefined}
           />
           <p className="gesture-guide">
             {isReview
-              ? "右: 次へ / 左: 前へ / 上: 見返すから外す"
-              : "右: 次へ / 左: 前へ / 下: 見返すに保存"}
+              ? "左: 次へ / 右: 前へ / 上: 見返すから外す"
+              : "左: 次へ / 右: 前へ / 下: 見返すに保存"}
           </p>
         </>
       ) : (
