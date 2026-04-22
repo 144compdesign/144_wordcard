@@ -14,17 +14,20 @@ function shuffleWords(words) {
   return copiedWords;
 }
 
-export function useWordDeck(words) {
+export function useWordDeck(
+  words,
+  { repeatOnComplete = true, shouldShuffle = true } = {}
+) {
   const wordIds = useMemo(() => words.map((word) => word.id).join(","), [words]);
-  const [deck, setDeck] = useState(() => shuffleWords(words));
+  const [deck, setDeck] = useState(() => (shouldShuffle ? shuffleWords(words) : words));
   const [currentIndex, setCurrentIndex] = useState(0);
   const [cardKey, setCardKey] = useState(0);
 
   useEffect(() => {
-    setDeck(shuffleWords(words));
+    setDeck(shouldShuffle ? shuffleWords(words) : words);
     setCurrentIndex(0);
     setCardKey((currentKey) => currentKey + 1);
-  }, [wordIds]);
+  }, [wordIds, shouldShuffle]);
 
   function nextWord() {
     setCurrentIndex((index) => {
@@ -33,9 +36,14 @@ export function useWordDeck(words) {
       }
 
       if (index >= deck.length - 1) {
-        setDeck(shuffleWords(words));
         setCardKey((currentKey) => currentKey + 1);
-        return 0;
+
+        if (repeatOnComplete) {
+          setDeck(shouldShuffle ? shuffleWords(words) : words);
+          return 0;
+        }
+
+        return deck.length;
       }
 
       setCardKey((currentKey) => currentKey + 1);

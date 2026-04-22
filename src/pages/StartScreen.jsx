@@ -1,8 +1,15 @@
-import { BookOpen, BriefcaseBusiness, Flag, Library } from "lucide-react";
+import {
+  BookOpen,
+  BriefcaseBusiness,
+  CalendarDays,
+  Flag,
+  Library
+} from "lucide-react";
 
 function StartScreen({
   onStartStudy,
   onStartPractical,
+  onStartDailyWords,
   onStartReview,
   onOpenDictionary
 }) {
@@ -22,6 +29,10 @@ function StartScreen({
         <button className="secondary-button" type="button" onClick={onStartPractical}>
           <BriefcaseBusiness size={22} aria-hidden="true" />
           実務用語
+        </button>
+        <button className="secondary-button" type="button" onClick={onStartDailyWords}>
+          <CalendarDays size={22} aria-hidden="true" />
+          今日の単語10選
         </button>
         <button className="secondary-button" type="button" onClick={onStartReview}>
           <Flag size={22} aria-hidden="true" />

@@ -2,6 +2,7 @@ import { useState } from "react";
 import StartScreen from "./pages/StartScreen.jsx";
 import LevelSelectPage from "./pages/LevelSelectPage.jsx";
 import PracticalSelectPage from "./pages/PracticalSelectPage.jsx";
+import DailyWordsPage from "./pages/DailyWordsPage.jsx";
 import StudyPage from "./pages/StudyPage.jsx";
 import DictionaryPage from "./pages/DictionaryPage.jsx";
 import WordDetailPage from "./pages/WordDetailPage.jsx";
@@ -49,6 +50,10 @@ function App() {
     return <StudyPage mode="flagged" onBack={() => setPage("start")} />;
   }
 
+  if (page === "dailyWords") {
+    return <DailyWordsPage onBack={() => setPage("start")} />;
+  }
+
   if (page === "levelSelect") {
     return (
       <LevelSelectPage
@@ -89,6 +94,7 @@ function App() {
     <StartScreen
       onStartStudy={() => setPage("levelSelect")}
       onStartPractical={() => setPage("practicalSelect")}
+      onStartDailyWords={() => setPage("dailyWords")}
       onStartReview={() => setPage("review")}
       onOpenDictionary={() => setPage("dictionary")}
     />
