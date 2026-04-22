@@ -2198,5 +2198,922 @@
     "meaning": "値がnullやundefinedでもエラーにせずプロパティを読む構文",
     "category": "JavaScript",
     "level": "advanced"
+  },
+  {
+    "id": 300,
+    "term": "UI",
+    "meaning": "ユーザーが操作する画面や見た目",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 301,
+    "term": "UX",
+    "meaning": "ユーザーが得る体験全体",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 302,
+    "term": "ワイヤーフレーム",
+    "meaning": "画面構成を示す設計図",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 303,
+    "term": "モックアップ",
+    "meaning": "見た目を再現したデザイン",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 304,
+    "term": "プロトタイプ",
+    "meaning": "動作確認用の試作品",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 305,
+    "term": "レスポンシブ",
+    "meaning": "画面サイズに応じてレイアウトを変える設計",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 306,
+    "term": "アクセシビリティ",
+    "meaning": "誰でも使いやすい設計にする考え方",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 307,
+    "term": "ユーザビリティ",
+    "meaning": "使いやすさの度合い",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 308,
+    "term": "A/Bテスト",
+    "meaning": "2つのパターンを比較して効果を検証する方法",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 309,
+    "term": "ヒューリスティック評価",
+    "meaning": "専門家による使いやすさ評価",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 310,
+    "term": "フロントエンド",
+    "meaning": "ユーザーが見る部分の開発",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 311,
+    "term": "バックエンド",
+    "meaning": "サーバー側の処理",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 312,
+    "term": "API",
+    "meaning": "アプリ同士をつなぐ仕組み",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 313,
+    "term": "REST API",
+    "meaning": "HTTPベースのAPI設計",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 314,
+    "term": "JSON",
+    "meaning": "データをやり取りする形式",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 315,
+    "term": "SPA",
+    "meaning": "1ページで動作するWebアプリ",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 316,
+    "term": "SSR",
+    "meaning": "サーバー側でHTMLを生成する方式",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 317,
+    "term": "SEO",
+    "meaning": "検索エンジンで上位表示する対策",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 318,
+    "term": "LCP",
+    "meaning": "表示速度の指標の一つ",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 319,
+    "term": "CLS",
+    "meaning": "レイアウトのズレを示す指標",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 320,
+    "term": "コンポーネント",
+    "meaning": "再利用可能なUI部品",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 321,
+    "term": "状態管理",
+    "meaning": "データの状態を管理する仕組み",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 322,
+    "term": "ルーティング",
+    "meaning": "ページ遷移の制御",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 323,
+    "term": "Git",
+    "meaning": "バージョン管理ツール",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 324,
+    "term": "コミット",
+    "meaning": "変更履歴を記録すること",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 325,
+    "term": "ブランチ",
+    "meaning": "作業を分岐する仕組み",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 326,
+    "term": "マージ",
+    "meaning": "変更を統合すること",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 327,
+    "term": "コンフリクト",
+    "meaning": "変更が衝突した状態",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 400,
+    "term": "アジェンダ",
+    "meaning": "会議の議題や進行内容",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 401,
+    "term": "リスケ",
+    "meaning": "予定を変更すること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 402,
+    "term": "リポジトリ",
+    "meaning": "コードを管理する場所",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 403,
+    "term": "タスク",
+    "meaning": "作業単位",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 404,
+    "term": "スプリント",
+    "meaning": "短期間で開発する単位",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 405,
+    "term": "バックログ",
+    "meaning": "未対応のタスク一覧",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 406,
+    "term": "要件定義",
+    "meaning": "必要な機能を決める工程",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 407,
+    "term": "仕様",
+    "meaning": "システムの詳細な内容",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 408,
+    "term": "見積もり",
+    "meaning": "作業量や費用を予測する",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 409,
+    "term": "レビュー",
+    "meaning": "成果物を確認すること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 410,
+    "term": "フィードバック",
+    "meaning": "改善点を伝えること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 411,
+    "term": "承認",
+    "meaning": "内容を認めること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 412,
+    "term": "クライアント",
+    "meaning": "依頼主",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 413,
+    "term": "ステークホルダー",
+    "meaning": "関係者全体",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 414,
+    "term": "KPI",
+    "meaning": "成果を測る指標",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 415,
+    "term": "ROI",
+    "meaning": "投資対効果",
+    "category": "Business",
+    "level": "advanced"
+  },
+  {
+    "id": 416,
+    "term": "納期",
+    "meaning": "提出期限",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 417,
+    "term": "優先度",
+    "meaning": "重要度の順番",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 418,
+    "term": "スコープ",
+    "meaning": "作業範囲",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 419,
+    "term": "リスク",
+    "meaning": "問題が起こる可能性",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 420,
+    "term": "オンボーディング",
+    "meaning": "新しいユーザーの導入体験",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 421,
+    "term": "ペルソナ",
+    "meaning": "想定ユーザー像",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 422,
+    "term": "カスタマージャーニー",
+    "meaning": "ユーザーの行動の流れ",
+    "category": "Business",
+    "level": "advanced"
+  },
+  {
+    "id": 500,
+    "term": "アフォーダンス",
+    "meaning": "見た目から操作方法が直感的に分かるデザイン",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 501,
+    "term": "コントラスト",
+    "meaning": "要素同士の差を強調することで視認性を高める",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 502,
+    "term": "ホワイトスペース",
+    "meaning": "余白を使って見やすさを向上させる設計",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 503,
+    "term": "タイポグラフィ",
+    "meaning": "文字の配置やデザインのこと",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 504,
+    "term": "フォント",
+    "meaning": "文字のデザインや書体",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 505,
+    "term": "グリッド",
+    "meaning": "要素を整列させるための基準線",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 506,
+    "term": "カラム",
+    "meaning": "縦方向のレイアウトの区切り",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 507,
+    "term": "マージン",
+    "meaning": "要素の外側の余白",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 508,
+    "term": "パディング",
+    "meaning": "要素の内側の余白",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 509,
+    "term": "アラインメント",
+    "meaning": "要素の揃え方（整列）",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 510,
+    "term": "ヒエラルキー",
+    "meaning": "情報の重要度に応じた視覚的な階層構造",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 511,
+    "term": "ビジュアルヒエラルキー",
+    "meaning": "視線誘導を意識した情報の優先順位",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 512,
+    "term": "視線誘導",
+    "meaning": "ユーザーの目の動きをコントロールする設計",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 513,
+    "term": "グルーピング",
+    "meaning": "関連する要素をまとめて配置すること",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 514,
+    "term": "カラーパレット",
+    "meaning": "使用する色の組み合わせ",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 515,
+    "term": "補色",
+    "meaning": "色相環で反対に位置する色",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 516,
+    "term": "トーン",
+    "meaning": "色の明るさや鮮やかさの度合い",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 517,
+    "term": "グラデーション",
+    "meaning": "色を滑らかに変化させる表現",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 518,
+    "term": "フラットデザイン",
+    "meaning": "装飾を抑えたシンプルなデザイン",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 519,
+    "term": "マテリアルデザイン",
+    "meaning": "影や奥行きを使ったGoogleのデザイン手法",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 520,
+    "term": "スキューモーフィズム",
+    "meaning": "現実の質感を再現するデザイン",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 521,
+    "term": "アイコン",
+    "meaning": "意味を視覚的に伝える小さな図",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 522,
+    "term": "ピクトグラム",
+    "meaning": "情報を簡潔に表す図形",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 523,
+    "term": "レスポンシブデザイン",
+    "meaning": "画面サイズに応じて変化する設計",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 524,
+    "term": "モバイルファースト",
+    "meaning": "スマホを優先して設計する考え方",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 525,
+    "term": "ユーザビリティ",
+    "meaning": "使いやすさの指標",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 526,
+    "term": "アクセシビリティ",
+    "meaning": "誰でも使えるようにする設計",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 527,
+    "term": "インタラクション",
+    "meaning": "ユーザー操作に対する反応",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 528,
+    "term": "フィードバック",
+    "meaning": "操作に対する反応を返すこと",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 529,
+    "term": "マイクロインタラクション",
+    "meaning": "細かい動きによるユーザー体験の向上",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 530,
+    "term": "アニメーション",
+    "meaning": "動きで状態変化を表現する",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 531,
+    "term": "ワイヤーフレーム",
+    "meaning": "構成だけを示した設計図",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 532,
+    "term": "モックアップ",
+    "meaning": "見た目を再現したデザイン",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 533,
+    "term": "プロトタイプ",
+    "meaning": "動作確認できる試作品",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 534,
+    "term": "デザインシステム",
+    "meaning": "デザインルールを体系化したもの",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 535,
+    "term": "コンポーネント設計",
+    "meaning": "再利用可能な部品で設計する方法",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 536,
+    "term": "ヒートマップ",
+    "meaning": "ユーザーの行動を可視化したデータ",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 537,
+    "term": "ペルソナ",
+    "meaning": "想定ユーザー像",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 538,
+    "term": "カスタマージャーニー",
+    "meaning": "ユーザー行動の流れ",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 539,
+    "term": "ファーストビュー",
+    "meaning": "最初に表示される画面領域",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 540,
+    "term": "CTA",
+    "meaning": "ユーザーに行動を促す要素",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 541,
+    "term": "ナビゲーション",
+    "meaning": "ページ移動の仕組み",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 542,
+    "term": "トーン&マナー",
+    "meaning": "デザインの統一ルール",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 543,
+    "term": "ブランドカラー",
+    "meaning": "ブランドを象徴する色",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 544,
+    "term": "グローバルナビ",
+    "meaning": "全ページ共通のナビゲーション",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 545,
+    "term": "ローカルナビ",
+    "meaning": "特定ページ内のナビゲーション",
+    "category": "Tech",
+    "level": "intermediate"
+  },
+  {
+    "id": 546,
+    "term": "パンくずリスト",
+    "meaning": "現在位置を示すナビゲーション",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 547,
+    "term": "ハンバーガーメニュー",
+    "meaning": "三本線のメニューUI",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 548,
+    "term": "スケーラビリティ",
+    "meaning": "拡張しやすさ",
+    "category": "Tech",
+    "level": "advanced"
+  },
+  {
+    "id": 549,
+    "term": "一貫性",
+    "meaning": "デザインの統一感",
+    "category": "Tech",
+    "level": "basic"
+  },
+  {
+    "id": 600,
+    "term": "アサイン",
+    "meaning": "担当を割り当てること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 601,
+    "term": "アサインメント",
+    "meaning": "担当割り当ての作業",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 602,
+    "term": "フィックス",
+    "meaning": "修正して確定させること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 603,
+    "term": "アジャイル",
+    "meaning": "短いサイクルで開発する手法",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 604,
+    "term": "イテレーション",
+    "meaning": "繰り返し開発するサイクル",
+    "category": "Business",
+    "level": "advanced"
+  },
+  {
+    "id": 605,
+    "term": "チケット",
+    "meaning": "タスク管理の単位",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 606,
+    "term": "ステータス",
+    "meaning": "進行状況",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 607,
+    "term": "リマインド",
+    "meaning": "再度知らせること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 608,
+    "term": "エスカレーション",
+    "meaning": "上位に問題を報告すること",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 609,
+    "term": "リソース",
+    "meaning": "人や時間などの資源",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 610,
+    "term": "コスト",
+    "meaning": "費用や負担",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 611,
+    "term": "キャパシティ",
+    "meaning": "対応できる作業量",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 612,
+    "term": "トラブル",
+    "meaning": "問題や不具合",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 613,
+    "term": "インシデント",
+    "meaning": "重大な問題や障害",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 614,
+    "term": "デプロイ",
+    "meaning": "アプリを公開すること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 615,
+    "term": "リリース",
+    "meaning": "新しい機能を公開すること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 616,
+    "term": "ロールバック",
+    "meaning": "前の状態に戻すこと",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 617,
+    "term": "アサンプション",
+    "meaning": "仮の前提条件",
+    "category": "Business",
+    "level": "advanced"
+  },
+  {
+    "id": 618,
+    "term": "コンセンサス",
+    "meaning": "関係者の合意",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 619,
+    "term": "コミットメント",
+    "meaning": "責任を持って約束すること",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 620,
+    "term": "アウトプット",
+    "meaning": "成果物や結果",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 621,
+    "term": "インプット",
+    "meaning": "情報や知識を取り入れること",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 622,
+    "term": "スケジュール",
+    "meaning": "作業の予定",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 623,
+    "term": "マイルストーン",
+    "meaning": "重要な節目のポイント",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 624,
+    "term": "オーナー",
+    "meaning": "責任者",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 625,
+    "term": "ドキュメント",
+    "meaning": "資料や記録",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 626,
+    "term": "テンプレート",
+    "meaning": "ひな形となるフォーマット",
+    "category": "Business",
+    "level": "basic"
+  },
+  {
+    "id": 627,
+    "term": "ベストプラクティス",
+    "meaning": "最も良いとされる方法",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 628,
+    "term": "ナレッジ",
+    "meaning": "知識や情報の蓄積",
+    "category": "Business",
+    "level": "intermediate"
+  },
+  {
+    "id": 629,
+    "term": "キャッチアップ",
+    "meaning": "遅れを取り戻すこと",
+    "category": "Business",
+    "level": "basic"
   }
 ]
