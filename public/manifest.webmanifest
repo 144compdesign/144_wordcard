@@ -1,7 +1,7 @@
 {
-  "name": "Web単語帳",
-  "short_name": "単語帳",
-  "description": "HTML、CSS、JavaScript の用語を学ぶスマートフォン向け単語帳です。",
+  "name": "Web単語暗記辞典",
+  "short_name": "暗記辞典",
+  "description": "HTML、CSS、JavaScript の用語を学ぶスマートフォン向け単語暗記辞典です。",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",

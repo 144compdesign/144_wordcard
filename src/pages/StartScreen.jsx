@@ -5,7 +5,7 @@ function StartScreen({ onStartStudy, onStartReview, onOpenDictionary }) {
     <main className="screen start-screen">
       <section className="app-title">
         <p className="eyebrow">HTML / CSS / JavaScript</p>
-        <h1>Web単語帳</h1>
+        <h1>Web単語暗記辞典</h1>
         <p className="lead">カードをめくって、基本用語を少しずつ覚えよう。</p>
       </section>
 
