@@ -1,0 +1,2202 @@
+[
+  {
+    "id": 1,
+    "term": "html",
+    "shortMeaning": "HTML文書",
+    "meaning": "Webページの構造を作るための最上位要素",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 2,
+    "term": "head",
+    "shortMeaning": "設定情報",
+    "meaning": "ページの設定情報をまとめる要素",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 3,
+    "term": "body",
+    "shortMeaning": "表示内容",
+    "meaning": "ブラウザに表示される内容をまとめる要素",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 4,
+    "term": "title",
+    "shortMeaning": "ページ名",
+    "meaning": "ブラウザのタブなどに表示されるページ名",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 5,
+    "term": "meta",
+    "shortMeaning": "メタ情報",
+    "meaning": "文字コードや表示設定などの情報を指定するタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 6,
+    "term": "h1",
+    "shortMeaning": "大見出し",
+    "meaning": "ページ内で最も重要な見出しを表すタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 7,
+    "term": "p",
+    "shortMeaning": "段落",
+    "meaning": "文章の段落を表すHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 8,
+    "term": "a",
+    "shortMeaning": "リンク",
+    "meaning": "リンクを作るHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 9,
+    "term": "img",
+    "shortMeaning": "画像",
+    "meaning": "画像を表示するHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 10,
+    "term": "ul",
+    "shortMeaning": "箇条書き",
+    "meaning": "順序のないリストを作るHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 11,
+    "term": "ol",
+    "shortMeaning": "番号付きリスト",
+    "meaning": "番号付きリストを作るHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 12,
+    "term": "li",
+    "shortMeaning": "リスト項目",
+    "meaning": "リストの1項目を表すHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 13,
+    "term": "div",
+    "shortMeaning": "汎用ブロック",
+    "meaning": "意味を持たない汎用的なブロック要素",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 14,
+    "term": "span",
+    "shortMeaning": "汎用インライン",
+    "meaning": "意味を持たない汎用的なインライン要素",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 15,
+    "term": "br",
+    "shortMeaning": "改行",
+    "meaning": "文章を改行するHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 16,
+    "term": "button",
+    "shortMeaning": "ボタン",
+    "meaning": "クリックできるボタンを作るHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 17,
+    "term": "input",
+    "shortMeaning": "入力欄",
+    "meaning": "テキスト入力やチェックなどの入力欄を作るタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 18,
+    "term": "label",
+    "shortMeaning": "ラベル",
+    "meaning": "入力欄の説明テキストを関連付けるタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 19,
+    "term": "form",
+    "shortMeaning": "フォーム",
+    "meaning": "入力内容を送信するフォーム全体をまとめるタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 20,
+    "term": "textarea",
+    "shortMeaning": "複数行入力",
+    "meaning": "複数行のテキスト入力欄を作るタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 21,
+    "term": "select",
+    "shortMeaning": "選択欄",
+    "meaning": "選択式の入力欄を作るタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 22,
+    "term": "option",
+    "shortMeaning": "選択肢",
+    "meaning": "selectの選択肢を表すタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 23,
+    "term": "header",
+    "shortMeaning": "ヘッダー",
+    "meaning": "ページやセクションの上部領域を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 24,
+    "term": "footer",
+    "shortMeaning": "フッター",
+    "meaning": "ページやセクションの下部領域を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 25,
+    "term": "main",
+    "shortMeaning": "主要内容",
+    "meaning": "ページの主要な内容を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 26,
+    "term": "section",
+    "shortMeaning": "区切り",
+    "meaning": "意味のあるまとまりを表すセクションタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 27,
+    "term": "article",
+    "shortMeaning": "記事",
+    "meaning": "独立して読める記事や投稿を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 28,
+    "term": "nav",
+    "shortMeaning": "ナビゲーション",
+    "meaning": "主要なナビゲーションを表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 29,
+    "term": "aside",
+    "shortMeaning": "補足情報",
+    "meaning": "補足情報やサイドバーを表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 30,
+    "term": "figure",
+    "shortMeaning": "図表",
+    "meaning": "画像や図表と説明をまとめるタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 31,
+    "term": "figcaption",
+    "shortMeaning": "図表説明",
+    "meaning": "figure内の画像や図表の説明文を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 32,
+    "term": "table",
+    "shortMeaning": "表",
+    "meaning": "表形式のデータを表示するタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 33,
+    "term": "tr",
+    "shortMeaning": "表の行",
+    "meaning": "表の1行を表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 34,
+    "term": "th",
+    "shortMeaning": "見出しセル",
+    "meaning": "表の見出しセルを表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 35,
+    "term": "td",
+    "shortMeaning": "データセル",
+    "meaning": "表の通常セルを表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 36,
+    "term": "thead",
+    "shortMeaning": "表ヘッダー",
+    "meaning": "表のヘッダー部分をまとめるタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 37,
+    "term": "tbody",
+    "shortMeaning": "表本文",
+    "meaning": "表の本文部分をまとめるタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 38,
+    "term": "alt",
+    "shortMeaning": "代替テキスト",
+    "meaning": "画像が表示できない時の代替テキスト属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 39,
+    "term": "href",
+    "shortMeaning": "リンク先",
+    "meaning": "リンク先のURLを指定する属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 40,
+    "term": "src",
+    "shortMeaning": "読み込み先",
+    "meaning": "画像やスクリプトなどの読み込み先を指定する属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 41,
+    "term": "class",
+    "shortMeaning": "クラス名",
+    "meaning": "CSSやJavaScriptから要素を扱うための分類名",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 42,
+    "term": "id",
+    "shortMeaning": "固有ID",
+    "meaning": "ページ内で一意な名前を付ける属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 43,
+    "term": "data attribute",
+    "shortMeaning": "独自データ",
+    "meaning": "data-で始まる独自データ用の属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 44,
+    "term": "required",
+    "shortMeaning": "入力必須",
+    "meaning": "入力必須にするフォーム属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 45,
+    "term": "placeholder",
+    "shortMeaning": "入力例",
+    "meaning": "入力欄に薄く表示される案内文の属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 46,
+    "term": "type",
+    "shortMeaning": "種類",
+    "meaning": "inputやbuttonなどの種類を指定する属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 47,
+    "term": "name",
+    "shortMeaning": "項目名",
+    "meaning": "フォーム送信時の項目名などに使う属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 48,
+    "term": "value",
+    "shortMeaning": "値",
+    "meaning": "入力欄や選択肢の値を表す属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 49,
+    "term": "doctype",
+    "shortMeaning": "文書宣言",
+    "meaning": "HTMLの文書タイプをブラウザへ伝える宣言",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 50,
+    "term": "lang",
+    "shortMeaning": "言語指定",
+    "meaning": "ページや要素の言語を指定する属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 51,
+    "term": "charset",
+    "shortMeaning": "文字コード",
+    "meaning": "文字コードを指定するmeta属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 52,
+    "term": "viewport",
+    "shortMeaning": "表示領域",
+    "meaning": "スマートフォン表示の幅や拡大率を指定するmeta設定",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 53,
+    "term": "script",
+    "shortMeaning": "スクリプト",
+    "meaning": "JavaScriptを読み込む、または書くためのタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 54,
+    "term": "link",
+    "shortMeaning": "外部ファイル",
+    "meaning": "CSSやアイコンなど外部ファイルとの関係を指定するタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 55,
+    "term": "rel",
+    "shortMeaning": "関係性",
+    "meaning": "linkやaでリンク先との関係を表す属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 56,
+    "term": "defer",
+    "shortMeaning": "遅延実行",
+    "meaning": "HTML解析後にスクリプトを実行する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 57,
+    "term": "async",
+    "shortMeaning": "非同期実行",
+    "meaning": "スクリプトを非同期に読み込んで実行する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 58,
+    "term": "aria-label",
+    "shortMeaning": "読み上げ名",
+    "meaning": "画面読み上げ向けに要素の名前を指定する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 59,
+    "term": "role",
+    "shortMeaning": "役割",
+    "meaning": "支援技術へ要素の役割を伝える属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 60,
+    "term": "aria-hidden",
+    "shortMeaning": "読み上げ除外",
+    "meaning": "支援技術から要素を隠すための属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 61,
+    "term": "template",
+    "shortMeaning": "テンプレート",
+    "meaning": "すぐ表示せず再利用するHTML断片を置くタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 62,
+    "term": "dialog",
+    "shortMeaning": "ダイアログ",
+    "meaning": "モーダルやダイアログを表すHTMLタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 63,
+    "term": "details",
+    "shortMeaning": "開閉詳細",
+    "meaning": "開閉できる詳細情報を作るタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 64,
+    "term": "summary",
+    "shortMeaning": "開閉見出し",
+    "meaning": "detailsの見出し部分を表すタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 65,
+    "term": "picture",
+    "shortMeaning": "画像切替",
+    "meaning": "画面条件に応じた画像を出し分けるタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 66,
+    "term": "source",
+    "shortMeaning": "代替リソース",
+    "meaning": "pictureやvideo内で代替リソースを指定するタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 67,
+    "term": "semantic tag",
+    "shortMeaning": "意味付きタグ",
+    "meaning": "headerやsectionなど意味を持ったHTMLタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 68,
+    "term": "color",
+    "shortMeaning": "文字色",
+    "meaning": "文字色を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 69,
+    "term": "background-color",
+    "shortMeaning": "背景色",
+    "meaning": "背景色を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 70,
+    "term": "font-size",
+    "shortMeaning": "文字サイズ",
+    "meaning": "文字の大きさを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 71,
+    "term": "font-weight",
+    "shortMeaning": "文字の太さ",
+    "meaning": "文字の太さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 72,
+    "term": "line-height",
+    "shortMeaning": "行間",
+    "meaning": "行の高さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 73,
+    "term": "text-align",
+    "shortMeaning": "文字揃え",
+    "meaning": "文字の横方向の揃え方を指定する",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 74,
+    "term": "width",
+    "shortMeaning": "幅",
+    "meaning": "要素の幅を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 75,
+    "term": "height",
+    "shortMeaning": "高さ",
+    "meaning": "要素の高さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 76,
+    "term": "margin",
+    "shortMeaning": "外側余白",
+    "meaning": "要素の外側の余白を指定する",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 77,
+    "term": "padding",
+    "shortMeaning": "内側余白",
+    "meaning": "要素の内側の余白を指定する",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 78,
+    "term": "border",
+    "shortMeaning": "枠線",
+    "meaning": "要素の枠線を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 79,
+    "term": "border-radius",
+    "shortMeaning": "角丸",
+    "meaning": "要素の角丸を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 80,
+    "term": "display",
+    "shortMeaning": "表示形式",
+    "meaning": "要素の表示形式を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 81,
+    "term": "block",
+    "shortMeaning": "ブロック表示",
+    "meaning": "横幅いっぱいに広がる表示形式",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 82,
+    "term": "inline",
+    "shortMeaning": "インライン表示",
+    "meaning": "文章の流れの中に並ぶ表示形式",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 83,
+    "term": "inline-block",
+    "shortMeaning": "インラインブロック",
+    "meaning": "横並びしつつ幅や高さを指定できる表示形式",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 84,
+    "term": "none",
+    "shortMeaning": "非表示",
+    "meaning": "要素を表示しないdisplayの値",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 85,
+    "term": "flex",
+    "shortMeaning": "フレックス",
+    "meaning": "柔軟な1次元レイアウトを作るdisplayの値",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 86,
+    "term": "justify-content",
+    "shortMeaning": "主軸配置",
+    "meaning": "flexやgridの主軸方向の配置を指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 87,
+    "term": "align-items",
+    "shortMeaning": "交差軸配置",
+    "meaning": "flexやgridの交差軸方向の配置を指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 88,
+    "term": "gap",
+    "shortMeaning": "間隔",
+    "meaning": "要素同士の間隔を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 89,
+    "term": "flex-direction",
+    "shortMeaning": "並び方向",
+    "meaning": "flexアイテムを並べる方向を指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 90,
+    "term": "flex-wrap",
+    "shortMeaning": "折り返し",
+    "meaning": "flexアイテムを折り返すか指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 91,
+    "term": "flex-grow",
+    "shortMeaning": "伸び率",
+    "meaning": "余ったスペースをどれだけ広げるか指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 92,
+    "term": "grid",
+    "shortMeaning": "グリッド",
+    "meaning": "行と列で2次元レイアウトを作るCSS機能",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 93,
+    "term": "grid-template-columns",
+    "shortMeaning": "列定義",
+    "meaning": "gridの列幅を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 94,
+    "term": "grid-template-rows",
+    "shortMeaning": "行定義",
+    "meaning": "gridの行の高さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 95,
+    "term": "position",
+    "shortMeaning": "配置方法",
+    "meaning": "要素の配置方法を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 96,
+    "term": "relative",
+    "shortMeaning": "相対配置",
+    "meaning": "通常位置を基準に移動できるpositionの値",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 97,
+    "term": "absolute",
+    "shortMeaning": "絶対配置",
+    "meaning": "基準要素からの位置で配置するpositionの値",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 98,
+    "term": "fixed",
+    "shortMeaning": "固定配置",
+    "meaning": "画面に固定して配置するpositionの値",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 99,
+    "term": "sticky",
+    "shortMeaning": "粘着配置",
+    "meaning": "スクロール位置に応じて固定されるpositionの値",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 100,
+    "term": "top",
+    "shortMeaning": "上位置",
+    "meaning": "上方向からの位置を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 101,
+    "term": "left",
+    "shortMeaning": "左位置",
+    "meaning": "左方向からの位置を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 102,
+    "term": "z-index",
+    "shortMeaning": "重なり順",
+    "meaning": "重なり順を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 103,
+    "term": "overflow",
+    "shortMeaning": "はみ出し",
+    "meaning": "はみ出した内容の扱いを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 104,
+    "term": "opacity",
+    "shortMeaning": "透明度",
+    "meaning": "要素の透明度を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 105,
+    "term": "box-shadow",
+    "shortMeaning": "影",
+    "meaning": "要素に影を付けるCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 106,
+    "term": "object-fit",
+    "shortMeaning": "画像の収め方",
+    "meaning": "画像や動画を枠内にどう収めるか指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 107,
+    "term": "aspect-ratio",
+    "shortMeaning": "縦横比",
+    "meaning": "要素の縦横比を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 108,
+    "term": "cursor",
+    "shortMeaning": "カーソル",
+    "meaning": "マウスカーソルの見た目を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 109,
+    "term": "hover",
+    "shortMeaning": "ホバー状態",
+    "meaning": "マウスが乗った時の状態を指定する疑似クラス",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 110,
+    "term": "focus",
+    "shortMeaning": "フォーカス状態",
+    "meaning": "入力欄などが選択された時の状態を指定する疑似クラス",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 111,
+    "term": "active",
+    "shortMeaning": "押下状態",
+    "meaning": "押している最中の状態を指定する疑似クラス",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 112,
+    "term": "nth-child",
+    "shortMeaning": "番号指定",
+    "meaning": "何番目の子要素かで選ぶ疑似クラス",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 113,
+    "term": "before",
+    "shortMeaning": "前の疑似要素",
+    "meaning": "要素の前に疑似要素を作る指定",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 114,
+    "term": "after",
+    "shortMeaning": "後の疑似要素",
+    "meaning": "要素の後に疑似要素を作る指定",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 115,
+    "term": "transition",
+    "shortMeaning": "変化の補間",
+    "meaning": "状態変化をなめらかにするCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 116,
+    "term": "transform",
+    "shortMeaning": "変形",
+    "meaning": "移動、回転、拡大縮小などを行うCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 117,
+    "term": "translate",
+    "shortMeaning": "移動",
+    "meaning": "要素を移動させるtransform関数",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 118,
+    "term": "rotate",
+    "shortMeaning": "回転",
+    "meaning": "要素を回転させるtransform関数",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 119,
+    "term": "scale",
+    "shortMeaning": "拡大縮小",
+    "meaning": "要素を拡大縮小するtransform関数",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 120,
+    "term": "animation",
+    "shortMeaning": "アニメーション",
+    "meaning": "キーフレームで動きを作るCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 121,
+    "term": "keyframes",
+    "shortMeaning": "動きの段階",
+    "meaning": "CSSアニメーションの途中状態を定義する規則",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 122,
+    "term": "media query",
+    "shortMeaning": "条件分岐CSS",
+    "meaning": "画面幅などの条件でCSSを切り替える機能",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 123,
+    "term": "rem",
+    "shortMeaning": "ルート基準単位",
+    "meaning": "ルート要素の文字サイズを基準にした単位",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 124,
+    "term": "em",
+    "shortMeaning": "文字基準単位",
+    "meaning": "親や自身の文字サイズを基準にした単位",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 125,
+    "term": "vw",
+    "shortMeaning": "画面幅単位",
+    "meaning": "画面幅を基準にしたCSS単位",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 126,
+    "term": "vh",
+    "shortMeaning": "画面高単位",
+    "meaning": "画面高さを基準にしたCSS単位",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 127,
+    "term": "calc",
+    "shortMeaning": "計算",
+    "meaning": "CSS内で計算した値を使う関数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 128,
+    "term": "min",
+    "shortMeaning": "最小値",
+    "meaning": "複数の値から小さい方を選ぶCSS関数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 129,
+    "term": "max",
+    "shortMeaning": "最大値",
+    "meaning": "複数の値から大きい方を選ぶCSS関数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 130,
+    "term": "clamp",
+    "shortMeaning": "範囲指定",
+    "meaning": "最小値、推奨値、最大値の範囲で値を調整する関数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 131,
+    "term": "box-sizing",
+    "shortMeaning": "箱の計算方法",
+    "meaning": "幅や高さにpaddingとborderを含めるか指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 132,
+    "term": "inherit",
+    "shortMeaning": "継承",
+    "meaning": "親要素のCSS値を受け継ぐ指定",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 133,
+    "term": "initial",
+    "shortMeaning": "初期値",
+    "meaning": "CSSプロパティを初期値に戻す指定",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 134,
+    "term": "custom property",
+    "shortMeaning": "CSS変数",
+    "meaning": "--main-colorのようにCSSで使える独自変数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 135,
+    "term": "specificity",
+    "shortMeaning": "優先度",
+    "meaning": "どのCSS指定が優先されるかを決める強さ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 136,
+    "term": "cascade",
+    "shortMeaning": "適用順",
+    "meaning": "CSSの指定が順序や優先度で適用される仕組み",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 137,
+    "term": "reset CSS",
+    "shortMeaning": "初期化CSS",
+    "meaning": "ブラウザ標準の見た目の差を減らすCSS",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 138,
+    "term": "let",
+    "shortMeaning": "再代入変数",
+    "meaning": "再代入できる変数を宣言するキーワード",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 139,
+    "term": "const",
+    "shortMeaning": "定数",
+    "meaning": "再代入しない変数を宣言するキーワード",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 140,
+    "term": "var",
+    "shortMeaning": "旧式変数",
+    "meaning": "古い書き方の変数宣言キーワード",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 141,
+    "term": "string",
+    "shortMeaning": "文字列",
+    "meaning": "文字列を表すデータ型",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 142,
+    "term": "number",
+    "shortMeaning": "数値",
+    "meaning": "数値を表すデータ型",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 143,
+    "term": "boolean",
+    "shortMeaning": "真偽値",
+    "meaning": "trueまたはfalseを表すデータ型",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 144,
+    "term": "null",
+    "shortMeaning": "空の値",
+    "meaning": "値がないことを意図的に表す値",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 145,
+    "term": "undefined",
+    "shortMeaning": "未定義",
+    "meaning": "値がまだ設定されていないことを表す値",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 146,
+    "term": "array",
+    "shortMeaning": "配列",
+    "meaning": "複数の値を順番に並べて管理するデータ構造",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 147,
+    "term": "object",
+    "shortMeaning": "オブジェクト",
+    "meaning": "名前と値の組み合わせでデータを管理する構造",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 148,
+    "term": "function",
+    "shortMeaning": "関数",
+    "meaning": "処理をまとめて名前を付けたもの",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 149,
+    "term": "return",
+    "shortMeaning": "戻り値",
+    "meaning": "関数から値を返すためのキーワード",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 150,
+    "term": "if",
+    "shortMeaning": "条件分岐",
+    "meaning": "条件によって処理を分ける構文",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 151,
+    "term": "else",
+    "shortMeaning": "条件外処理",
+    "meaning": "ifの条件に合わなかった時の処理を書く構文",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 152,
+    "term": "for",
+    "shortMeaning": "繰り返し",
+    "meaning": "決まった回数の繰り返し処理を書く構文",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 153,
+    "term": "while",
+    "shortMeaning": "条件付き反復",
+    "meaning": "条件がtrueの間くり返す構文",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 154,
+    "term": "event",
+    "shortMeaning": "イベント",
+    "meaning": "クリックや入力などブラウザ上で起きる出来事",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 155,
+    "term": "addEventListener",
+    "shortMeaning": "イベント登録",
+    "meaning": "イベントが起きた時の処理を登録するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 156,
+    "term": "click",
+    "shortMeaning": "クリック",
+    "meaning": "クリック操作を表すイベント名",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 157,
+    "term": "input event",
+    "shortMeaning": "入力イベント",
+    "meaning": "入力欄の値が変わった時に発火するイベント",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 158,
+    "term": "submit",
+    "shortMeaning": "送信イベント",
+    "meaning": "フォーム送信時に発火するイベント",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 159,
+    "term": "preventDefault",
+    "shortMeaning": "標準動作停止",
+    "meaning": "ブラウザ標準の動作を止めるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 160,
+    "term": "querySelector",
+    "shortMeaning": "要素取得",
+    "meaning": "CSSセレクタで最初に一致した要素を取得する",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 161,
+    "term": "querySelectorAll",
+    "shortMeaning": "複数要素取得",
+    "meaning": "CSSセレクタに一致する複数要素を取得する",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 162,
+    "term": "textContent",
+    "shortMeaning": "テキスト内容",
+    "meaning": "要素内のテキストを取得または変更するプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 163,
+    "term": "innerHTML",
+    "shortMeaning": "HTML内容",
+    "meaning": "要素内のHTML文字列を取得または変更するプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 164,
+    "term": "classList",
+    "shortMeaning": "クラス操作",
+    "meaning": "要素のclassを追加、削除、切り替えするためのプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 165,
+    "term": "setAttribute",
+    "shortMeaning": "属性設定",
+    "meaning": "HTML属性を設定するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 166,
+    "term": "getAttribute",
+    "shortMeaning": "属性取得",
+    "meaning": "HTML属性の値を取得するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 167,
+    "term": "createElement",
+    "shortMeaning": "要素作成",
+    "meaning": "新しいHTML要素を作るメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 168,
+    "term": "append",
+    "shortMeaning": "追加",
+    "meaning": "要素や文字を末尾に追加するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 169,
+    "term": "remove",
+    "shortMeaning": "削除",
+    "meaning": "要素をDOMから削除するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 170,
+    "term": "map",
+    "shortMeaning": "配列変換",
+    "meaning": "配列の各要素を変換して新しい配列を作るメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 171,
+    "term": "filter",
+    "shortMeaning": "配列抽出",
+    "meaning": "条件に合う配列要素だけを集めるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 172,
+    "term": "find",
+    "shortMeaning": "要素検索",
+    "meaning": "条件に合う最初の配列要素を取得するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 173,
+    "term": "forEach",
+    "shortMeaning": "全件処理",
+    "meaning": "配列の各要素に対して処理を行うメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 174,
+    "term": "includes",
+    "shortMeaning": "含有確認",
+    "meaning": "配列や文字列に指定値が含まれるか調べるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 175,
+    "term": "push",
+    "shortMeaning": "末尾追加",
+    "meaning": "配列の末尾に要素を追加するメソッド",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 176,
+    "term": "pop",
+    "shortMeaning": "末尾取得",
+    "meaning": "配列の末尾の要素を取り出すメソッド",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 177,
+    "term": "slice",
+    "shortMeaning": "一部取得",
+    "meaning": "配列や文字列の一部を取り出すメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 178,
+    "term": "spread syntax",
+    "shortMeaning": "展開構文",
+    "meaning": "...を使って配列やオブジェクトを展開する構文",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 179,
+    "term": "destructuring",
+    "shortMeaning": "分割代入",
+    "meaning": "配列やオブジェクトから値を取り出す構文",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 180,
+    "term": "template literal",
+    "shortMeaning": "文字列埋め込み",
+    "meaning": "バッククォートで文字列に変数を埋め込める構文",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 181,
+    "term": "arrow function",
+    "shortMeaning": "アロー関数",
+    "meaning": "=>を使った短い関数の書き方",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 182,
+    "term": "callback",
+    "shortMeaning": "コールバック",
+    "meaning": "別の関数に渡して後で実行される関数",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 183,
+    "term": "Promise",
+    "shortMeaning": "非同期結果",
+    "meaning": "非同期処理の成功や失敗を扱うオブジェクト",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 184,
+    "term": "async",
+    "shortMeaning": "非同期関数",
+    "meaning": "非同期関数を定義するキーワード",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 185,
+    "term": "await",
+    "shortMeaning": "完了待ち",
+    "meaning": "Promiseの完了を待つためのキーワード",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 186,
+    "term": "fetch",
+    "shortMeaning": "通信取得",
+    "meaning": "サーバーと通信してデータを取得するAPI",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 187,
+    "term": "JSON",
+    "shortMeaning": "データ形式",
+    "meaning": "データを文字列として表現する軽量な形式",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 188,
+    "term": "JSON.parse",
+    "shortMeaning": "JSON解析",
+    "meaning": "JSON文字列をJavaScriptの値に変換するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 189,
+    "term": "JSON.stringify",
+    "shortMeaning": "JSON変換",
+    "meaning": "JavaScriptの値をJSON文字列に変換するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 190,
+    "term": "localStorage",
+    "shortMeaning": "ブラウザ保存",
+    "meaning": "ブラウザに文字列データを保存する仕組み",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 191,
+    "term": "setItem",
+    "shortMeaning": "保存",
+    "meaning": "localStorageに値を保存するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 192,
+    "term": "getItem",
+    "shortMeaning": "取得",
+    "meaning": "localStorageから値を取得するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 193,
+    "term": "try...catch",
+    "shortMeaning": "エラー処理",
+    "meaning": "エラーが起きた時の処理を書く構文",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 194,
+    "term": "throw",
+    "shortMeaning": "エラー発生",
+    "meaning": "意図的にエラーを発生させるキーワード",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 195,
+    "term": "module",
+    "shortMeaning": "モジュール",
+    "meaning": "コードをファイル単位で分けて再利用する仕組み",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 196,
+    "term": "import",
+    "shortMeaning": "読み込み",
+    "meaning": "別ファイルから値や関数を読み込む構文",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 197,
+    "term": "export",
+    "shortMeaning": "公開",
+    "meaning": "別ファイルへ値や関数を公開する構文",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 198,
+    "term": "event bubbling",
+    "shortMeaning": "イベント伝播",
+    "meaning": "子要素のイベントが親要素へ伝わる仕組み",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 199,
+    "term": "debounce",
+    "shortMeaning": "遅延実行制御",
+    "meaning": "連続実行される処理を一定時間後にまとめる考え方",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 200,
+    "term": "throttle",
+    "shortMeaning": "間引き制御",
+    "meaning": "処理の実行頻度を一定間隔に制限する考え方",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 201,
+    "term": "strong",
+    "shortMeaning": "重要な強調",
+    "meaning": "重要性の高いテキストを表すHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 202,
+    "term": "em",
+    "shortMeaning": "強調",
+    "meaning": "文脈上強調したいテキストを表すHTMLタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 203,
+    "term": "small",
+    "shortMeaning": "補足文字",
+    "meaning": "注釈や著作権表示など小さな補足を表すタグ",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 204,
+    "term": "time",
+    "shortMeaning": "日時",
+    "meaning": "日付や時刻を機械にも分かる形で表すタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 205,
+    "term": "address",
+    "shortMeaning": "連絡先",
+    "meaning": "ページや記事の連絡先情報を表すHTMLタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 206,
+    "term": "audio",
+    "shortMeaning": "音声",
+    "meaning": "音声ファイルを再生するためのHTMLタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 207,
+    "term": "video",
+    "shortMeaning": "動画",
+    "meaning": "動画ファイルを再生するためのHTMLタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 208,
+    "term": "iframe",
+    "shortMeaning": "埋め込み",
+    "meaning": "別ページや地図などをページ内に埋め込むタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 209,
+    "term": "canvas",
+    "shortMeaning": "描画領域",
+    "meaning": "JavaScriptで図形や画像を描画するためのHTMLタグ",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 210,
+    "term": "svg",
+    "shortMeaning": "ベクター画像",
+    "meaning": "拡大しても荒れにくい図形画像を扱うHTML要素",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 211,
+    "term": "checkbox",
+    "shortMeaning": "チェック入力",
+    "meaning": "複数選択に使うinput typeの値",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 212,
+    "term": "radio",
+    "shortMeaning": "単一選択",
+    "meaning": "候補から1つだけ選ぶ時に使うinput typeの値",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 213,
+    "term": "email",
+    "shortMeaning": "メール入力",
+    "meaning": "メールアドレス入力に使うinput typeの値",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 214,
+    "term": "password",
+    "shortMeaning": "パスワード入力",
+    "meaning": "入力内容を隠して表示するinput typeの値",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 215,
+    "term": "fieldset",
+    "shortMeaning": "入力グループ",
+    "meaning": "関連するフォーム部品をまとめるHTMLタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 216,
+    "term": "legend",
+    "shortMeaning": "入力グループ名",
+    "meaning": "fieldsetの見出しを表すHTMLタグ",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 217,
+    "term": "action",
+    "shortMeaning": "送信先",
+    "meaning": "フォームの送信先URLを指定する属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 218,
+    "term": "method",
+    "shortMeaning": "送信方法",
+    "meaning": "フォーム送信にGETやPOSTを指定する属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 219,
+    "term": "target",
+    "shortMeaning": "開き方",
+    "meaning": "リンク先をどこで開くか指定する属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 220,
+    "term": "download",
+    "shortMeaning": "ダウンロード",
+    "meaning": "リンク先を保存させたい時に使う属性",
+    "category": "HTML",
+    "level": "intermediate"
+  },
+  {
+    "id": 221,
+    "term": "loading",
+    "shortMeaning": "遅延読み込み",
+    "meaning": "画像やiframeの読み込みタイミングを指定する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 222,
+    "term": "srcset",
+    "shortMeaning": "画像候補",
+    "meaning": "画面条件に合わせた画像候補を指定する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 223,
+    "term": "sizes",
+    "shortMeaning": "画像表示幅",
+    "meaning": "レスポンシブ画像の表示サイズ条件を指定する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 224,
+    "term": "disabled attribute",
+    "shortMeaning": "無効化",
+    "meaning": "フォーム部品を操作できない状態にする属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 225,
+    "term": "checked",
+    "shortMeaning": "選択済み",
+    "meaning": "チェックボックスやラジオボタンの初期選択を指定する属性",
+    "category": "HTML",
+    "level": "basic"
+  },
+  {
+    "id": 226,
+    "term": "tabindex",
+    "shortMeaning": "フォーカス順",
+    "meaning": "キーボード操作でのフォーカス対象や順番を指定する属性",
+    "category": "HTML",
+    "level": "advanced"
+  },
+  {
+    "id": 227,
+    "term": "font-family",
+    "shortMeaning": "フォント種類",
+    "meaning": "文字に使うフォントを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 228,
+    "term": "letter-spacing",
+    "shortMeaning": "文字間隔",
+    "meaning": "文字と文字の間隔を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 229,
+    "term": "text-decoration",
+    "shortMeaning": "文字装飾",
+    "meaning": "下線や取り消し線などの文字装飾を指定する",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 230,
+    "term": "list-style",
+    "shortMeaning": "リスト記号",
+    "meaning": "リストの記号や番号の表示を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 231,
+    "term": "max-width",
+    "shortMeaning": "最大幅",
+    "meaning": "要素が広がれる最大の幅を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "basic"
+  },
+  {
+    "id": 232,
+    "term": "min-width",
+    "shortMeaning": "最小幅",
+    "meaning": "要素が縮める最小の幅を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 233,
+    "term": "max-height",
+    "shortMeaning": "最大高さ",
+    "meaning": "要素が広がれる最大の高さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 234,
+    "term": "min-height",
+    "shortMeaning": "最小高さ",
+    "meaning": "要素が縮める最小の高さを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 235,
+    "term": "background-image",
+    "shortMeaning": "背景画像",
+    "meaning": "背景に画像やグラデーションを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 236,
+    "term": "background-size",
+    "shortMeaning": "背景サイズ",
+    "meaning": "背景画像の大きさを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 237,
+    "term": "background-position",
+    "shortMeaning": "背景位置",
+    "meaning": "背景画像の表示位置を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 238,
+    "term": "outline",
+    "shortMeaning": "外枠線",
+    "meaning": "フォーカス表示などに使う要素外側の線を指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 239,
+    "term": "visibility",
+    "shortMeaning": "表示可否",
+    "meaning": "場所を残したまま要素を見せるか隠すか指定する",
+    "category": "CSS",
+    "level": "intermediate"
+  },
+  {
+    "id": 240,
+    "term": "white-space",
+    "shortMeaning": "空白処理",
+    "meaning": "空白や改行の扱い方を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 241,
+    "term": "word-break",
+    "shortMeaning": "単語改行",
+    "meaning": "長い単語や文字列の改行方法を指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 242,
+    "term": "inset",
+    "shortMeaning": "四辺位置",
+    "meaning": "top、right、bottom、leftをまとめて指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 243,
+    "term": "place-items",
+    "shortMeaning": "中央配置",
+    "meaning": "align-itemsとjustify-itemsをまとめて指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 244,
+    "term": "order",
+    "shortMeaning": "表示順",
+    "meaning": "flexやgrid内のアイテムの並び順を指定する",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 245,
+    "term": "flex-basis",
+    "shortMeaning": "基本幅",
+    "meaning": "flexアイテムの基準サイズを指定するCSSプロパティ",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 246,
+    "term": "fr",
+    "shortMeaning": "グリッド比率",
+    "meaning": "CSS Gridで余白を割合配分するための単位",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 247,
+    "term": "repeat",
+    "shortMeaning": "繰り返し定義",
+    "meaning": "Gridの列や行の定義を繰り返して書くCSS関数",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 248,
+    "term": "auto-fit",
+    "shortMeaning": "自動列調整",
+    "meaning": "Gridで入る数だけ列を自動配置する指定",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 249,
+    "term": "container query",
+    "shortMeaning": "親幅条件",
+    "meaning": "親要素のサイズに応じてCSSを切り替える機能",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 250,
+    "term": "supports",
+    "shortMeaning": "対応判定",
+    "meaning": "CSS機能が使えるかを条件にスタイルを切り替える規則",
+    "category": "CSS",
+    "level": "advanced"
+  },
+  {
+    "id": 251,
+    "term": "document",
+    "shortMeaning": "文書オブジェクト",
+    "meaning": "表示中のHTML文書をJavaScriptから扱うためのオブジェクト",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 252,
+    "term": "window",
+    "shortMeaning": "ブラウザ画面",
+    "meaning": "ブラウザの画面や全体機能を表すグローバルオブジェクト",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 253,
+    "term": "console.log",
+    "shortMeaning": "ログ表示",
+    "meaning": "開発者ツールに値を表示して確認するメソッド",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 254,
+    "term": "Math.random",
+    "shortMeaning": "乱数",
+    "meaning": "0以上1未満のランダムな数値を返すメソッド",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 255,
+    "term": "Math.floor",
+    "shortMeaning": "切り捨て",
+    "meaning": "小数点以下を切り捨てた整数を返すメソッド",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 256,
+    "term": "Date",
+    "shortMeaning": "日時オブジェクト",
+    "meaning": "日付や時刻を扱うためのJavaScriptオブジェクト",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 257,
+    "term": "setTimeout",
+    "shortMeaning": "遅延実行",
+    "meaning": "指定時間が経ったあとに処理を1回実行する関数",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 258,
+    "term": "setInterval",
+    "shortMeaning": "定期実行",
+    "meaning": "指定時間ごとに処理を繰り返し実行する関数",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 259,
+    "term": "clearTimeout",
+    "shortMeaning": "遅延解除",
+    "meaning": "setTimeoutで予約した処理を取り消す関数",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 260,
+    "term": "clearInterval",
+    "shortMeaning": "定期解除",
+    "meaning": "setIntervalで始めた繰り返し処理を止める関数",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 261,
+    "term": "removeEventListener",
+    "shortMeaning": "イベント解除",
+    "meaning": "登録済みのイベント処理を削除するメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 262,
+    "term": "stopPropagation",
+    "shortMeaning": "伝播停止",
+    "meaning": "イベントが親要素へ伝わるのを止めるメソッド",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 263,
+    "term": "event.target",
+    "shortMeaning": "発生元",
+    "meaning": "イベントが発生した要素を参照するプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 264,
+    "term": "DOMContentLoaded",
+    "shortMeaning": "HTML読込完了",
+    "meaning": "HTMLの解析が終わった時に発火するイベント",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 265,
+    "term": "dataset",
+    "shortMeaning": "data属性操作",
+    "meaning": "data属性をJavaScriptから扱うためのプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 266,
+    "term": "style",
+    "shortMeaning": "直接スタイル",
+    "meaning": "要素のインラインスタイルをJavaScriptから変更するプロパティ",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 267,
+    "term": "toggle",
+    "shortMeaning": "切り替え",
+    "meaning": "classListでクラスの追加と削除を切り替えるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 268,
+    "term": "closest",
+    "shortMeaning": "親方向検索",
+    "meaning": "条件に合う最も近い祖先要素を探すメソッド",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 269,
+    "term": "matches",
+    "shortMeaning": "一致判定",
+    "meaning": "要素が指定したCSSセレクタに一致するか調べるメソッド",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 270,
+    "term": "value property",
+    "shortMeaning": "入力値",
+    "meaning": "フォーム部品の入力値を取得または変更するプロパティ",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 271,
+    "term": "checked property",
+    "shortMeaning": "選択状態",
+    "meaning": "チェックボックスなどの選択状態を扱うプロパティ",
+    "category": "JavaScript",
+    "level": "basic"
+  },
+  {
+    "id": 272,
+    "term": "reduce",
+    "shortMeaning": "配列集約",
+    "meaning": "配列の値を1つの結果へまとめるメソッド",
+    "category": "JavaScript",
+    "level": "advanced"
+  },
+  {
+    "id": 273,
+    "term": "sort",
+    "shortMeaning": "並び替え",
+    "meaning": "配列の要素を指定条件で並び替えるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 274,
+    "term": "some",
+    "shortMeaning": "一部判定",
+    "meaning": "配列のどれか1つが条件に合うか調べるメソッド",
+    "category": "JavaScript",
+    "level": "intermediate"
+  },
+  {
+    "id": 275,
+    "term": "optional chaining",
+    "shortMeaning": "安全な参照",
+    "meaning": "値がnullやundefinedでもエラーにせずプロパティを読む構文",
+    "category": "JavaScript",
+    "level": "advanced"
+  }
+]
